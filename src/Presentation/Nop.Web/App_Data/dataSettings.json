@@ -1,0 +1,5 @@
+﻿{
+  "DataProvider": "sqlserver",
+  "DataConnectionString": "Data Source=rsc-db-server.database.windows.net;Initial Catalog=RscShop;Integrated Security=False;Persist Security Info=False;User ID=Enrico;Password=Ew3.141592",
+  "RawDataSettings": {}
+}
