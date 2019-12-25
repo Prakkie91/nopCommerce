@@ -1,5 +1,5 @@
 <dataConfig>
-  <dataSource type="JdbcDataSource" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" url="jdbc:sqlserver://rsc-db-server.database.windows.net;databaseName=RscShop" user="Enrico" password="Ew3.141592" />
+  <dataSource type="JdbcDataSource" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" url="jdbc:sqlserver://52.187.133.214;databaseName=RscShop" user="sa" password="Ew3.14159200" />
   <document>
     <entity name="Product" transformer="RegexTransformer" query="EXEC NopAcc_Plus_ImportSolrProductByLanguageWiseUsingDIH '${dataimporter.request.ProductIds}'" deltaQuery="EXEC NopAcc_Plus_ImportSolrProductByLanguageWiseUsingDIH" parentDeltaQuery="EXEC NopAcc_Plus_ImportSolrProductByLanguageWiseUsingDIH">
       <field column="RoleId" name="RoleId" splitBy="~!~" />
