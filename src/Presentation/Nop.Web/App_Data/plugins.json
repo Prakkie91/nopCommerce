@@ -1,11 +1,8 @@
 ﻿{
-  "InstalledPluginNames": [],
+  "InstalledPluginNames": [
+    "XcellenceIT.Plugin.NopAcceleratePlus.Search"
+  ],
   "PluginNamesToUninstall": [],
   "PluginNamesToDelete": [],
-  "PluginNamesToInstall": [
-    {
-      "Item1": "XcellenceIT.Plugin.NopAcceleratePlus.Search",
-      "Item2": null
-    }
-  ]
+  "PluginNamesToInstall": []
 }
